@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://clipboardjs.com/dist/clipboard.min.js"></script>
+</head>
+<body>
+    <img src="https://picsum.photos/200/100" alt="點我啊" class="btn" data-clipboard-text="請給可愛的孟蘋500塊">
+    <br>
+    <input type="text" placeholder="點完圖在這裡貼上">
+    <script>
+        new ClipboardJS('.btn');
+    </script>
+</body>
+</html>
